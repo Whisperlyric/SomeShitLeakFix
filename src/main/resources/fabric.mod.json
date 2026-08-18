@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "someshitleakfix",
+  "version": "${version}",
+  "name": "SomeShitLeakFix",
+  "description": "Fix fake-player memory leaks from relogin: force disconnect old fake avatars, skip saving removed fake players, keep fake players out of map registries, and purge map registrations on disconnect.",
+  "authors": [
+    "Whisperlyric"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": [
+    "someshitleakfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${fabricVersion}",
+    "minecraft": "~${minecraftVersion}",
+    "carpet": ">=26.1+v260402",
+    "carpet-org-addition": ">=1.44.0"
+  }
+}

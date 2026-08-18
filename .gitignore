@@ -1,0 +1,17 @@
+# Gradle
+.gradle/
+build/
+
+# IDE
+.idea/
+bin/
+out/
+*.iml
+.vscode/
+
+# Fabric dev run
+run/
+
+# OS
+.DS_Store
+Thumbs.db
